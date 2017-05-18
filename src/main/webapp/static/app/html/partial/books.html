@@ -1,0 +1,10 @@
+<div class="col col-md-6" ng-controller="BooksCtrl">
+	<h1 >Books</h1>
+	<ul class="booklist">
+		<li class="list-group list-group-item list-inline" ng-repeat="book in books">
+			<label class="btn"> <a href="#"> {{book.title}} </a></label>
+			<p> {{book.authorDTO.lastName}}, {{book.authorDTO.firstName}}</p>
+			<p> ISBN: {{book.isbn}}</p>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,31 @@
+<div class="col col-md-12 offset-md-2" ng-controller="AuthorCtrl" >
+	<div class="row">
+		<div class="col-md-6">
+			<h1>{{author.lastName}}, {{author.firstName}}</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4 offset-md-2">
+			<form>
+				<div class="form-group">
+					<button type="submit" class="btn btn-success" >Edit
+					</button>
+            		<button class="btn btn-success" ng-click="deleteAuthor(author.id)">Delete</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="col col-md-6 offset-md-2">
+			<ul class="booklist">
+				<li class="list-group list-group-item list-inline" ng-repeat="bookByAuthor in booksByAuthor">
+					<label class="btn"> <a href="#"> {{bookByAuthor.title}} </a></label>
+					<p> {{bookByAuthor.authorDTO.lastName}}, {{bookByAuthor.authorDTO.firstName}}</p>
+					<p> ISBN: {{bookByAuthor.isbn}}</p>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+</div>

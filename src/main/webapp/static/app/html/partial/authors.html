@@ -1,0 +1,8 @@
+<div class="col col-md-6" ng-controller="AuthorsCtrl">
+	<h1 >Authors</h1>
+	<ul class="authorlist">
+		<li class="list-group list-group-item" ng-repeat="author in authors">
+			<a class="btn" href="#!/author/{{author.id}}"> {{author.lastName}}, {{author.firstName}}  </a>
+		</li>
+	</ul>
+</div>

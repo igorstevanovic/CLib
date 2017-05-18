@@ -1,0 +1,69 @@
+/* Booklist List Styles */
+
+.booklist {
+  background: #EEE8D5;
+  width: 50%;
+  min-width: 290px;
+  max-width:350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 0 0 20px 20px;
+  opacity: .95;
+  z-index: 10;
+}
+
+.booklist ul {
+  margin: 0;
+  padding: 0;
+  background: #FDF6E3;
+}
+
+.booklist li {
+  margin: 0;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px dotted black;
+}
+
+.booklist a {
+  display: block;
+  text-decoration: none;
+}
+
+.booklist li:hover {
+  background: #FDF6E3;
+}
+
+/* Authorlist List Styles */
+
+.authorlist {
+  background: #EEE8D5;
+  width: 50%;
+  min-width: 290px;
+  max-width:350px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 0 0 20px 20px;
+  opacity: .95;
+  z-index: 10;
+}
+
+.authorlist ul {
+  margin: 0;
+  padding: 0;
+  background: #FDF6E3;
+}
+
+.authorlist li {
+  margin: 0;
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px dotted black;
+}
+
+.authorlist a {
+  display: block;
+  text-decoration: none;
+}
+
+.authorlist li:hover {
+  background: #FDF6E3;
+}
